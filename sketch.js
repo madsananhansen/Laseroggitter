@@ -12,16 +12,16 @@ function setup() {
   
   //sliders
   slider_lambda = createSlider (381,760,380);
-  slider_lambda.size(canvasX);
+  slider_lambda.size(canvasX-10);
   
   slider_p = createSlider(190,670,190);
-  slider_p.size(canvasX);
+  slider_p.size(canvasX-10);
   
   slider_d = createSlider (380,7600,380);
-  slider_d.size(canvasX);  
+  slider_d.size(canvasX-10);  
   
   slider_n = createSlider (1,20,1);
-  slider_n.size(canvasX);
+  slider_n.size(canvasX-10);
 }
 
 function draw() {
