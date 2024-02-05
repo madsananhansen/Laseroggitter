@@ -65,9 +65,8 @@ function draw() {
 
   let angle = round(v1.angleBetween(v2), 2);
 
-  var n_12 = n_2/n_1;
   var i = angle;
-  var b = round((asin((sin(i)*n_2)/n_1)),2);
+  var b = round((asin((sin(i)*n_1)/n_2)),2);
   var r = c*tan(i);
   var z = a*tan(b);
   var p_1 = 164
