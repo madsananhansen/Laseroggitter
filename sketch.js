@@ -7,21 +7,21 @@ function preload(){
 function setup() {
   //canvas
   canvasX = windowWidth;
-  canvasY = windowHeight-90;
+  canvasY = windowHeight-150;
   createCanvas(canvasX, canvasY);
   
   //sliders
   slider_lambda = createSlider (380,760,500);
-  slider_lambda.size(canvasX);
+  slider_lambda.size(canvasX-10);
   
   slider_p = createSlider(170,canvasX-30,500);
-  slider_p.size(canvasX);
+  slider_p.size(canvasX-10);
   
   slider_d = createSlider (380,10000,5000);
-  slider_d.size(canvasX);  
+  slider_d.size(canvasX-10);  
   
   slider_n = createSlider (1,20,5);
-  slider_n.size(canvasX);
+  slider_n.size(canvasX-10);
 }
 
 function draw() {
